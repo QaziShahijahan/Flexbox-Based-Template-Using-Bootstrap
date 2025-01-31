@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 16px sans-serif;
+    color: #555;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+.hero-image {
+    object-fit: cover;
+    filter: brightness(50%);
+    padding: 0px 50px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.line-1 {
+    padding: 1px;
+    margin: 5px 5px 5px 20px;
+    background-color: rgb(109, 185, 223);
+    width: 15%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.features h1 {
+    padding: 40px;
+    margin: 40px 0 10px 0;
+    font-weight: bold;
+}
+
+.features p {
+    text-align: center;
+    width: 70%;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+.line-2 {
+    padding: 1px;
+    margin: 0px 5px 5px 20px;
+    background-color: rgb(109, 185, 223);
+    width: 15%;
+}
+
+.features-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    background-color: #ececec;
+    place-items: center;
+}
+
+.features-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 80px;
+    margin: 20px;
+}
+
+.features-main i {
+    color: rgb(31, 155, 217);
+    padding: 30px;
+    font-size: 48px;
+}
+
+.features-main p {
+    line-height: 1.9;
+    text-align: center;
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.comment-content {
+    width: 70%;
+    text-align: center;
+}
+
+.comment-content>p,
+h6 {
+    font-size: 22px;
+    padding: 10px;
+    line-height: 1.9;
+
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.footer>ul>li {
+    list-style-type: none;
+    padding: 5px;
+}
+.footer >  i{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+
+}
+.footer p  span{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+
+}
+.footer > ul > li > a > i{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+
+}
